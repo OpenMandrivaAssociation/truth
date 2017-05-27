@@ -1,3 +1,5 @@
+%{?_javapackages_macros:%_javapackages_macros}
+
 Name:           truth
 Version:        0.23
 Release:        5%{?dist}
