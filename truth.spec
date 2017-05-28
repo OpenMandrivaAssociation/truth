@@ -5,6 +5,7 @@ Version:        0.23
 Release:        5%{?dist}
 Summary:        An assertion framework for Java unit tests
 License:        ASL 2.0
+Group:          Development/Java
 URL:            https://github.com/google/truth
 # Created from revision 3c4492b0f72290c8b4a32f1b313b13501e96f44d
 # of git@github.com:google/truth.git using the following command:
