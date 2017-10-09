@@ -2,10 +2,9 @@
 
 Name:           truth
 Version:        0.23
-Release:        5%{?dist}
+Release:        6.1
 Summary:        An assertion framework for Java unit tests
 License:        ASL 2.0
-Group:          Development/Java
 URL:            https://github.com/google/truth
 # Created from revision 3c4492b0f72290c8b4a32f1b313b13501e96f44d
 # of git@github.com:google/truth.git using the following command:
@@ -57,6 +56,9 @@ This package contains the API documentation for %{name}.
 %doc LICENSE
 
 %changelog
+* Thu Jul 27 2017 Fedora Release Engineering <releng@fedoraproject.org> - 0.23-6
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_27_Mass_Rebuild
+
 * Sat Feb 11 2017 Fedora Release Engineering <releng@fedoraproject.org> - 0.23-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_26_Mass_Rebuild
 
@@ -71,3 +73,4 @@ This package contains the API documentation for %{name}.
 
 * Wed Jun 3 2015 Noa Resare <noa@resare.com> - 0.23-1
 - Initial packaging
+
